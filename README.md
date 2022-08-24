@@ -1,15 +1,12 @@
-  ##Tema proiectului
+  ## Tema proiectului
   
   În mediul Matlab a fost proiectat un regulator fuzzy pentru controlul unui proces descris de funcția de transfer:
   
-  $$ Gp(s) = {Kp \over (sT1 + 1)(sT2 + 1)} $$
-  
-  Parametrii procesului:
-  - Kp = 0.8
-  - T1 = 81
-  - T2 = 10
+  $$ Gp(s) = {0.8 \over (81s + 1)(10s + 1)} $$
   
   Performanțele impuse:
   - e = 3 (eroarea staționară)
   - Mv = 3 (suprareglajul)
   - ts = 80 (timpul de stabilire)
+
+  În acest proiect s-a realizat implementarea regulatorului proiectat, în limbajul C++, care mai apoi a fost testat pentru diverse valori ale mărimilor de intrare ale sistemului de inferență prin comparație cu funcționarea aceluiași sistem de inferențe realizat în Matlab.  
