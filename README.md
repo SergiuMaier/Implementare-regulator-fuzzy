@@ -9,4 +9,5 @@
   - Mv = 3 (suprareglajul)
   - ts = 80 (timpul de stabilire)
 
-  În acest proiect s-a realizat implementarea regulatorului proiectat, în limbajul C++, care mai apoi a fost testat pentru diverse valori ale mărimilor de intrare ale sistemului de inferență prin comparație cu funcționarea aceluiași sistem de inferențe realizat în Matlab.  
+  În acest proiect s-a realizat implementarea regulatorului proiectat, în limbajul C++. 
+  Mai apoi programul a fost testat pentru diverse valori ale mărimilor de intrare ale sistemului de inferență prin comparație cu funcționarea aceluiași sistem de inferențe realizat în Matlab.  
